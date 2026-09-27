@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>selfhalt — Smalltalk Consulting</title>
+<meta name="description" content="Independent Smalltalk consulting with 30+ years of experience: VisualWorks and VA Smalltalk development, maintenance, and legacy modernization.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' rx='3' fill='%23222'/><text x='8' y='12' font-size='10' text-anchor='middle' fill='%23fff' font-family='monospace'>^</text></svg>">
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1f2328;
+    --muted: #59636e;
+    --rule: #d1d9e0;
+    --accent: #0969da;
+    --code-bg: #f6f8fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1117;
+      --fg: #e6edf3;
+      --muted: #9198a1;
+      --rule: #30363d;
+      --accent: #4493f8;
+      --code-bg: #161b22;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 64px 20px 48px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  code, pre, .mono {
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  }
+  header h1 { font-size: 2rem; font-weight: 600; margin: 0 0 4px; letter-spacing: -0.01em; }
+  header .tag { color: var(--muted); margin: 0; font-size: 1.05rem; }
+  pre {
+    background: var(--code-bg);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 14px 16px;
+    font-size: 0.9rem;
+    overflow-x: auto;
+    margin: 28px 0 0;
+  }
+  .c { color: var(--muted); }
+  h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 44px 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--rule);
+  }
+  ul { padding-left: 1.2em; margin: 0; }
+  li { margin: 6px 0; }
+  li strong { font-weight: 600; }
+  p { margin: 0 0 12px; }
+  footer {
+    margin-top: 56px;
+    padding-top: 16px;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: 0.875rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>selfhalt</h1>
+    <p class="tag">Independent Smalltalk consulting — Douglas Camp · 30+ years</p>
+  </header>
+
+<pre><span class="c">"When something needs a closer look."</span>
+self halt.</pre>
+
+  <h2>About</h2>
+  <p>
+    With more than 30 years of Smalltalk experience, I help teams keep their Smalltalk
+    systems healthy, understood, and moving forward. Many businesses still run critical software written in Smalltalk — often reliable,
+    often undocumented, and often maintained by fewer people every year. I step in to
+    fix what's broken, extend what works, and plan a sensible path for what comes next.
+  </p>
+
+  <h2>Services</h2>
+  <ul>
+    <li><strong>VisualWorks &amp; VA Smalltalk development</strong> — new features, bug fixes, and performance work in Cincom VisualWorks and VAST.</li>
+    <li><strong>Legacy modernization</strong> — version upgrades, refactoring, test coverage, and incremental migration without a risky rewrite.</li>
+    <li><strong>Integration &amp; FFI</strong> — connecting Smalltalk images to native libraries, operating system APIs, databases, and web services.</li>
+    <li><strong>UI work</strong> — maintaining and updating desktop interfaces, including native Windows UI.</li>
+    <li><strong>Code review &amp; knowledge transfer</strong> — assessments of existing systems, documentation, and mentoring for developers new to Smalltalk.</li>
+  </ul>
+
+  <h2>How I work</h2>
+  <p>
+    Available for both short- and long-term assignments, from a focused assessment to
+    ongoing support. Work is primarily remote, with on-site visits possible when a
+    project calls for it. I start by reading the code and understanding the system before recommending changes,
+    and I favor small, well-tested steps over big rewrites.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Have a Smalltalk system that needs attention? Email
+    <a href="mailto:douglas.a.camp@gmail.com">douglas.a.camp@gmail.com</a>
+    with a short description of your project.
+  </p>
+
+  <footer>
+    <span class="mono">^ self</span> &middot; &copy; <span id="y">2026</span> Douglas Camp
+  </footer>
+</main>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
