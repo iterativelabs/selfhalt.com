@@ -109,7 +109,15 @@ self halt.</pre>
   <h2>Contact</h2>
   <p>
     Have a Smalltalk system that needs attention? Email
-    <a href="mailto:douglas.a.camp@gmail.com">douglas.a.camp@gmail.com</a>
+    <span id="email"><noscript>hello at selfhalt dot com</noscript></span>
+    <script>
+      (function () {
+        var a = document.createElement('a'), addr = ['hello', 'selfhalt.com'].join('@');
+        a.href = 'mailto:' + addr;
+        a.textContent = addr;
+        document.getElementById('email').appendChild(a);
+      })();
+    </script>
     with a short description of your project.
   </p>
 
